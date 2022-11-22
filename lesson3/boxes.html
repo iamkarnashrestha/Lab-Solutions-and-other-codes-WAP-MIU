@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes </title>
+<style type="text/css"> 
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    main{
+        width: 500px;
+    }
+    .box{
+        float: left;
+        width: 200px;
+        height: 100px;
+        margin: 1em;
+        border: 1px solid black;
+        -webkit-margin-collapse: collapse;
+    }
+    .after-box
+    {border: 1px solid black;
+        clear: left;
+    }
+
+    .box2
+    {   
+        border: 1px solid black;
+        width: 200px;
+        height: 100px;
+        margin: 1em;
+        display: inline-block;
+    }
+
+    .after
+    {
+        border:1px solid black;
+    }
+
+    .newbox{
+        border: 1px solid black;
+        height: 20px;
+        width: 30px;
+    }
+    .none{
+        display :none;
+    }
+    .hide{
+       visibility: hidden;
+    }
+#lifted{
+    position:relative;
+    left: 2em;
+    top: 1em;
+    right: 2em;
+    border: 2px solid black;
+}
+</style>
+   
+</head>
+<body>
+    <main>
+
+            <div class="box">Iam floating</div>
+            <div class="box">Iam floating</div>
+            <div class="after-box">I am using clear so i don't float to the above boxes</div>
+            
+
+            <div class="box2">I am inline block</div>
+            <div class="box2">I am inline block</div>
+            <div class="after">I am using clear so i don't float to the above boxes</div>
+
+            <div class="newbox"></div>
+            <div class="newbox none"></div>
+            <div class="newbox"></div>
+<hr>
+            <div class="newbox"></div>
+            <div class="newbox hide"></div>
+            <div class="newbox"></div>
+<hr>
+<p>This example has <span id="lifted">some text</span> with a relative position</p>
+
+
+
+
+    </main>
+    
+</body>
+</html>

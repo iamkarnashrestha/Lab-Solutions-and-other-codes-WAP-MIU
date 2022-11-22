@@ -1,0 +1,7 @@
+h1.highlighted{
+    color: red;
+}
+
+h1.not-highlighted{
+    color: rgb(0, 0, 0);
+}

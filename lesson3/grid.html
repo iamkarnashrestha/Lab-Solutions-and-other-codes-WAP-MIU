@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid View</title>
+    <style>
+        .nav-grid-container{
+            display:grid;
+            grid-template-areas: 'logo navbar';
+           grid-template-columns: 50% 50%;
+        }
+        
+        .logo{
+            grid-area: logo;
+        }
+        .navbar{
+            grid-area:navbar;
+        }
+
+        .navbar>ul{
+            display: flex;
+            justify-content: flex-end;
+          
+        }
+        .navbar>ul>li
+        {
+            list-style-type: none;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-grid-container">
+            <div class="logo">logo</div>
+            <div class="navbar">
+                <ul><li>abc</li><li>abc</li><li>abc</li><li>abc</li></ul>
+            </div>
+        </div>    
+    </header>
+    <main></main>
+</body>
+</html>

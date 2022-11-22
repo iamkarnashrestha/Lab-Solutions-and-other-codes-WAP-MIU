@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+}
+.nav-user{
+    background-color: #426fa3 !important;
+   
+}
+
+ ul>li>a {
+    color: white !important;
+    padding-left: 50px;
+}
+
+.nav-item{
+    margin-left: 40px;
+    margin-right:0px;
+    padding-left:50px;
+    padding-right: 20px;
+    border-left: 1px solid #bdaeae;
+}
+ul>li{
+    border-left: 1px white solid;
+    margin-left: 25px;
+
+}
+a.navbar-brand
+{
+    color: white !important;
+}
+.date-text{
+    color: white !important;
+}
+
+.censusimage{
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+footer{
+    background-color: #bdaeae;
+    display: flex;
+    justify-content:space-between;
+    /* //position: fixed; */
+    /* bottom: 0px; */
+   
+}

@@ -1,0 +1,16 @@
+{
+  "name": "helloworld-nodejs-cmdlineapp",
+  "version": "1.0.0",
+  "description": "My first node.js cmdline app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "helloworld",
+    "node.js"
+  ],
+  "author": "karna",
+  "license": "ISC"
+}
