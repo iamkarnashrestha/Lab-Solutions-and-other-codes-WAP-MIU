@@ -1,0 +1,7 @@
+For this Homework Assignment, work on the questions numbers, 1, 2, 3, 4 and 5, given in the attached, "W2D1-Scopes-Closures-in-JS.pdf" document.
+
+Note 1: For each of the Questions, you should NOT use a computer. Instead use pencil or pen and paper for a start to work-out the correct execution behavior and then evaluate the result/output.
+
+Write all your answers in a document (MS Word or PDF only) and submit by uploading to Sakai.
+
+Note 2: You are required to include brief explanations for your logic, showing how you arrive at the result/output you give. Missing or incorrect explanation of logic will score you just half the point(s), even if your result is correct.

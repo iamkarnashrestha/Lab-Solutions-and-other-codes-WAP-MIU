@@ -1,0 +1,3 @@
+For this Assignment 12, do the SimpleAdder node.js webapp programming Exercise given in Slides 36 - 40, in the Lecture Slides (see attached). Carefully follow the directions and test your webapp when finished.
+
+To submit, simply zip your source code folder/directory and upload here on Sakai and/or push your code to your github and submit the repo's url.

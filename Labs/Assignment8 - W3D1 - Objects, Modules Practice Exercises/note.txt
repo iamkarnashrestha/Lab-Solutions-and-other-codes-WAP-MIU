@@ -1,0 +1,5 @@
+For this Homework Assignment, work on the questions numbers, 6, 7, 8, 9, 10 and 11, given in the attached, "W2D2-Objects-Modules-in-JS.pdf" document.
+
+When finished, attach zip of your JavaScript code or submit the url to your github repo/folder containing your code solutions.
+
+For the written-answer questions, simply type your answers in a text or document file.
